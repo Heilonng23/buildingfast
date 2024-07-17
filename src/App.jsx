@@ -6,7 +6,7 @@ import building from "./assets/buidling.png";
 function App() {
   return (
     <>
-      <header style={{ marginTop: "30px" }}>
+      <header style={{ marginTop: "10px" }}>
         <nav>
           <div>
             <p>
