@@ -1,19 +1,25 @@
 import "./App.css";
 import MultipleSelect from "./components/MultipleSelect";
 import { FaSquareXTwitter, FaLinkedin } from "react-icons/fa6";
+import building from "./assets/buidling.png";
 
 function App() {
   return (
     <>
-      <header>
+      <header style={{ marginTop: "30px" }}>
         <nav>
-          <p>
-            Building Fast,
-            <span>
-              <em> kinda</em>
-            </span>
-          </p>
-          <p>about us</p>
+          <div>
+            <p>
+              <img src={building} alt="" />
+              Building Fast,
+              <span>
+                <em> kinda</em>
+              </span>
+            </p>
+          </div>
+          <div>
+            <p style={{ marginTop: "37px" }}>contact us</p>
+          </div>
         </nav>
       </header>
       <div className="building">

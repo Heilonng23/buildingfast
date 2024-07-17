@@ -10,6 +10,13 @@ html {
   display: flex;
   flex-direction: column;
 }
+nav img {
+  width: 50px;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+  margin-right: 10px;
+}
 #root {
   display: flex;
   flex-direction: column;
